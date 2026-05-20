@@ -1,9 +1,0 @@
-.customize-support {
-	.header-f {
-		margin-top: 46px;
-
-		@include tamanho-tela(tablet) {
-			margin-top: 32px;
-		}
-	}
-}

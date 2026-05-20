@@ -12,32 +12,22 @@
     "url": "https://www.linkedin.com/in/cbral/"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=18"
   },
-  "keywords": [
-    "gulp",
-    "gulp-starter",
-    "simple",
-    "starter",
-    "starter-kit"
-  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.{js,css,html,md}\" \"docs/**/*.md\" README.md"
+  },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/preset-env": "^7.7.1",
-    "@babel/register": "^7.7.0",
-    "babel-loader": "^8.0.6",
-    "browser-sync": "^2.26.7",
-    "del": "^5.1.0",
-    "eslint": "^6.6.0",
-    "eslint-config-gulp": "^3.0.1",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-imagemin": "^6.2.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "node-sass": "^4.13.1",
-    "terser-webpack-plugin": "^2.3.4",
-    "webpack-stream": "^5.2.1"
+    "@eslint/js": "^8.57.0",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.57.0",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "vite": "^8.0.13"
   }
 }
