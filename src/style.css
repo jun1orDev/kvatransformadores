@@ -1845,44 +1845,29 @@ header {
 }
 
 .footer-dev {
-  display: block;
   width: 100%;
-  background: #0f0c29;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #000000;
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.33em;
+  margin-top: 0;
+  padding: 14px 0;
+  background: #1d1d1d;
+  text-align: center;
 }
-.footer-dev .dep {
-  color: rgb(237.9113924051, 137.0886075949, 171.2658227848);
-}
-.footer-dev p {
-  transition: 0.4s ease-in-out;
-  padding: 0.9em 0px 0.9em 0px;
-  font-size: 1em;
-}
-@media (min-width: 1200px) {
-  .footer-dev p {
-    padding-right: 20px;
-    text-align: center;
-    font-size: 0.8em;
-    display: block;
-  }
-}
-.footer-dev p a {
-  transition: 0.2s linear;
-}
-.footer-dev p:hover a {
-  color: #FF4E81;
-}
+
 .footer-dev a {
-  color: #FFFFFF;
+  display: inline;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #d6d6d6;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  transition: color 0.2s ease;
+}
+
+.footer-dev a:hover {
+  color: #ffffff;
 }
 
 #my-form-status {
